@@ -9,3 +9,10 @@
 img {
   width: 100%;
 }
+.topic{
+  display: flex;
+}
+
+.item{
+  flex: 1;
+}

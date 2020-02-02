@@ -10,12 +10,18 @@ function App() {
         <p>
          welcome to Ewan Thomas PT
         </p>
-        <div>
-          <div>Flexability</div>
-          <div>Strength</div>
-          <div>Endurance</div>
+        <div className="topic">
+          <div className="item">Flexability</div>
+          <div className="item">Strength</div>
+          <div className="item">Endurance</div>
         </div>
-      
+        <div className="topic">
+          <div className="item">10min routine</div>
+          <div className="item">20min routine</div>
+          <div className="item">40min routine</div>
+        </div>
+        <br /><br /><br />
+      <div></div>
     </div>
   );
 }
