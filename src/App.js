@@ -1,26 +1,34 @@
 import React from 'react';
 import logo from './images/fit1.jpg';
+import endur from './images/endurPic.png';
+import flexa from './images/flexPic.png';
+import stren from './images/strenPic.png';
+import smlPic from './images/smallVidPic.png';
+import medPic from './images/medVidPic.png';
+import lrgPic from './images/lrgVidPic.png';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     
-        <img src={logo} className="App-header" alt="logo" />
-        <p>
-         welcome to Ewan Thomas PT
+
+      <img src={logo} className="App-header" alt="logo" />
+      <p>
+        welcome to Ewan Thomas PT
         </p>
-        <div className="topic">
-          <div className="item">Flexability</div>
-          <div className="item">Strength</div>
-          <div className="item">Endurance</div>
-        </div>
-        <div className="topic">
-          <div className="item">10min routine</div>
-          <div className="item">20min routine</div>
-          <div className="item">40min routine</div>
-        </div>
-        <br /><br /><br />
+        {/* image tiles */}
+      <div className="topic">
+        <div className="item"><img src={endur} alt='endurance' /></div>
+        <div className="item"><img src={stren} alt='strength' /></div>
+        <div className="item"><img src={flexa} alt='flexability' /></div>
+      </div>
+      <div className="topic">
+        <div className="item"><img src={smlPic} alt='10min routine' /></div>
+        <div className="item"><img src={medPic} alt='20min routine' /></div>
+        <div className="item"><img src={lrgPic} alt='40min routine' /></div>
+      </div>
+      <br /><br /><br />
       <div></div>
     </div>
   );

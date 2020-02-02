@@ -12,7 +12,13 @@ img {
 .topic{
   display: flex;
 }
+/* display topis items side by side */
 
 .item{
   flex: 1;
+  padding: 2px;
 }
+/* display items with equal coloumn width */
+
+
+/* make mobile friendly  */
