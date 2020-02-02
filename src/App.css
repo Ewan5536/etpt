@@ -9,16 +9,20 @@
 img {
   width: 100%;
 }
-.topic{
+.topic {
   display: flex;
 }
 /* display topis items side by side */
 
-.item{
+.item {
   flex: 1;
   padding: 2px;
 }
 /* display items with equal coloumn width */
 
-
+@media only screen and (max-width: 600px) {
+.topic {
+  display: block;
+}
+}
 /* make mobile friendly  */
