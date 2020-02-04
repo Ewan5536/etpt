@@ -1,4 +1,4 @@
-* {
+.topic {
   
   background-color: aquamarine;
 }
@@ -17,12 +17,45 @@ img {
 .item {
   flex: 1;
   padding: 2px;
+  position: relative;
+  overflow: hidden;
 }
-/* display items with equal coloumn width */
+/* display items with equal column width */
 
-@media only screen and (max-width: 600px) {
-.topic {
+/* 
+.overlay {
+  display: none;
+  position: absolute;
+  bottom: 11px;
+  width: 100%;
+  transform: bottom ease 1s;
+}
+/* transition not working */
+/*
+.item:hover .overlay {
+  opacity: .5;
   display: block;
-}
-}
-/* make mobile friendly  */
+} */
+/* hover overlay  */
+        @media only screen and (max-width: 600px) {
+          .topic {
+            display: block;
+          }
+        }
+        /* make mobile friendly  */
+
+        .overlay{
+          transition: bottom cubic-bezier(0, 0, 0.57, 1.71) 1s;
+          position: absolute;
+          bottom: -200px;
+          left: 0;
+          width:100%;
+          background-color: red;
+          
+          
+          opacity: 0.8;
+        }
+        .item:hover .overlay {
+          opacity: .9;
+          bottom: 0;
+        }

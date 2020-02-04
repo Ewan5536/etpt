@@ -1,35 +1,29 @@
 import React from 'react';
-import logo from './images/fit1.jpg';
-import endur from './images/endurPic.png';
-import flexa from './images/flexPic.png';
-import stren from './images/strenPic.png';
-import smlPic from './images/smallVidPic.png';
-import medPic from './images/medVidPic.png';
-import lrgPic from './images/lrgVidPic.png';
-
+import NavBar from './NavBar';
+import Home from './pages/Home';
 import './App.css';
+import {HashRouter as Router,Route} from "react-router-dom"  
+import Endurance from './pages/Endurance'
 
 function App() {
   return (
+    
     <div className="App">
+      <Router>
+      <div><NavBar/></div>
+      
 
-      <img src={logo} className="App-header" alt="logo" />
+      {/* <img src={logo} className="App-header" alt="logo" /> */}
       <p>
         welcome to Ewan Thomas PT
         </p>
-        {/* image tiles */}
-      <div className="topic">
-        <div className="item"><img src={endur} alt='endurance' /></div>
-        <div className="item"><img src={stren} alt='strength' /></div>
-        <div className="item"><img src={flexa} alt='flexability' /></div>
-      </div>
-      <div className="topic">
-        <div className="item"><img src={smlPic} alt='10min routine' /></div>
-        <div className="item"><img src={medPic} alt='20min routine' /></div>
-        <div className="item"><img src={lrgPic} alt='40min routine' /></div>
-      </div>
+      {/* image tiles */}
+      <Route exact path='/' component={Home}/>
+      <Route path='/endurance' component={Endurance}/>
+    
       <br /><br /><br />
       <div></div>
+      </Router>
     </div>
   );
 }
