@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import './App.css';
 import {HashRouter as Router,Route} from "react-router-dom"  
 import Endurance from './pages/Endurance'
+import Login from './pages/Login'
+
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
         welcome to Ewan Thomas PT
         </p>
       {/* image tiles */}
-      <Route exact path='/' component={Home}/>
+      <Route exact path='/' component={Login}/>
+      <Route path="/home" component={Home}/>
       <Route path='/endurance' component={Endurance}/>
     
       <br /><br /><br />

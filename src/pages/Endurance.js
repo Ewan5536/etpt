@@ -1,8 +1,7 @@
 import React from "react";
 import endurance from '../images/endurCard.gif';
 import { Link } from 'react-router-dom';
-import ScrollArea from 'react-scrollbar';
-import SimpleBar from "simplebar";
+
 
 function Endurance() {
 
