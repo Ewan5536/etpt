@@ -1,23 +1,29 @@
 import React from "react";
 
-
-import Nutri from '../images/nutriPic.png';
-
-
+import {Link} from 'react-router-dom';
+ import Nutri from '../images/nutriPic.png';
 
 
 
-function nutrition() {
+
+
+function Nutrition() {
 
     return (
             
         <div>
-            <img src={Nutri} alt='nutrition sign up' />
+           <button>
+               <Link>
+                    <img src={Nutri} alt='nutrition sign up' />
+                    
+                </Link>
+            </button> 
+            
 
         </div>
 
     )
 }
 
-export default nutrition;
+export default Nutrition;
 

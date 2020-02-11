@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './NavBar';
+import NavBar from './components/navbar/NavBar';
 import Home from './pages/Home';
 import './App.css';
 import {HashRouter as Router,Route} from "react-router-dom"  
@@ -10,6 +10,8 @@ import Strength from './pages/Strength'
 import Workout10 from './pages/10minWo'
 import Workout20 from './pages/20minWo'
 import Workout40 from './pages/40minWo'
+import Nutrition from './pages/Nutrition'
+import JoinLive from './pages/JoinLive'
 
 function App() {
   return (
@@ -24,14 +26,16 @@ function App() {
         welcome to Ewan Thomas PT
         </p>
       {/* image tiles */}
-      <Route exact path='/' component={Login}/>
+      <Route exact path='/' component={Home}/>
       <Route path='/strength' component={Strength}/>
-      <Route path="/home" component={Home}/>
+      {/* <Route path="/home" component={Home}/> */}
       <Route path='/endurance' component={Endurance}/>
       <Route path='/flexability' component={Flex}/>
       <Route path="/10minWo" component={Workout10}/>
       <Route path='/20minWo' component={Workout20}/>
       <Route path='/40minWo' component={Workout40}/>
+      <Route path='/nutrition' component={Nutrition}/>
+      <Route path='/joinLive' component={JoinLive}/>
       <br /><br /><br />
       <div></div>
       </Router>

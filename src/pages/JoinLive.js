@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from 'react-router-dom'
 
-function JoinLive() {
+function JoinLive () {
     return (
 
         <div className="topic">
