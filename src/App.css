@@ -50,7 +50,8 @@ img {
           bottom: -800px;
           left: 0;
           width:100%;
-          background-color: red;
+          background-color: rgb(0, 255, 149);
+         
 
           
           opacity: 0.8;
@@ -58,4 +59,9 @@ img {
         .item:hover .overlay {
           opacity: .9;
           bottom: 0;
+        }
+
+        .overlayText {
+          font-size: smaller;
+          padding-left: 3px;
         }

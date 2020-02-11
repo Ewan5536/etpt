@@ -1,5 +1,9 @@
 import React from "react";
 import endurance from '../images/leghops.gif';
+import endurCrd from '../images/endurCard.gif';
+import strength from '../images/strenCrd.png';
+import flexability from '../images/flexCrd.png';
+
 import { Link } from 'react-router-dom'
 
 function Home() {
@@ -9,7 +13,7 @@ function Home() {
 
         <div className="item">
 
-          <img src={endurance} alt='endurance' />
+          <img src={endurCrd} alt='endurance' />
           <Link to='/endurance'>
           <button className="overlay">
             Enderance Training</button>
@@ -19,18 +23,21 @@ function Home() {
 
         {/* gif immage for homepage routing */}
         <div className="item">
-          <img src={endurance} alt='strength' />
-          <div className="overlay">Strength Training</div>
+          <img src={strength} alt='strength' />
+          <Link to='/strength'>
+          <button className="overlay">Strength Training</button></Link>
         </div>
         <div className="item">
-          <img src={endurance} alt='flexability' />
-          <div className="overlay">Flexabiltity Training</div>
+          <img src={flexability} alt='flexability' />
+          <Link to='/flexability'>
+          <button className="overlay">Flexabiltity Training</button></Link>
         </div>
       </div>
       <div className="topic">
         <div className="item">
           <img src={endurance} alt='10min routine' />
-          <div className="overlay">10min Training</div>
+          <Link to='/10minWo'>
+          <button className="overlay">10min Training</button></Link>
         </div>
         <div className="item">
           <img src={endurance} alt='20min routine' />

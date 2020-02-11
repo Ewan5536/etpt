@@ -14,6 +14,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import { Link } from 'react-router-dom'
 
 //app Component from openscource
 const Example = (props) => {
@@ -30,10 +31,16 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="./Contact">Contact</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="./JoinLive">Join Live</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="./Motivate">Motivate</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="./Premium">Premium</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -41,19 +48,22 @@ const Example = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Option 1
+                  Warm Up
                 </DropdownItem>
                 <DropdownItem>
-                  Option 2
+                  Cool Down
+                </DropdownItem>
+                <DropdownItem>
+                  <link to='./Nutrition'>Nutrition</link>
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  Reset
+                  Forum Comments
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          <NavbarText><a href="">email: info@et-pt.co.uk</a></NavbarText>
         </Collapse>
       </Navbar>
     </div>

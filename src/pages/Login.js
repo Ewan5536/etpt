@@ -1,6 +1,8 @@
 import React from "react"
 import {Link} from "react-router-dom"
 
+
+
 const Login = () =>(
     <div className="col-md-6 col-md-offset-3">
         <h2>Login</h2>
@@ -16,9 +18,11 @@ const Login = () =>(
             <div className="form-group">
                 <button className="btn btn-primary">Login</button>
               
-                <Link to="/register" className="btn btn-link">Register</Link>
+              
+                <Link to="/Home" className="btn btn-link">Skip Login</Link>
             </div>
         </form>
+   
     </div>
 );
 
