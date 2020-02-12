@@ -32,22 +32,22 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto navbar-link-container" navbar>
             <NavItem>
-              <Link to="./Contact" className='navbar-link'>Contact</Link>
+              <Link to="./contact" className='navbar-link'>Contact</Link>
             </NavItem>
             <NavItem>
-              <Link to="./JoinLive" className='navbar-link'>Join Live</Link>
+              <Link to="./joinLive" className='navbar-link'>Join Live</Link>
             </NavItem>
             <NavItem>
-              <Link to="./Motivate" className='navbar-link'>Motivate</Link>
+              <Link to="./motivate" className='navbar-link'>Motivate</Link>
             </NavItem>
             <NavItem>
-              <Link to="./Premium" className='navbar-link'>Premium</Link>
+              <Link to="./premium" className='navbar-link'>Premium</Link>
             </NavItem>
             <NavItem>
-              <Link to="./Nutrition" className='navbar-link'>Nutrition</Link>
+              <Link to="./nutrition" className='navbar-link'>Nutrition</Link>
             </NavItem>
             <NavItem>
-              <Link to="./warn_up" className='navbar-link'>Warn</Link>
+              <Link to="./warn_up" className='navbar-link'>Warm-up</Link>
             </NavItem>
             <NavItem>
               <Link to="./cool_down" className='navbar-link'>Cooldown</Link>

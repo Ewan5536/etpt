@@ -6,7 +6,7 @@ import flexability from '../images/flexCrd.png';
 
 import { Link } from 'react-router-dom'
 
-function Home() {
+function Home () {
   return (
     <div>
       <div className="topic">
