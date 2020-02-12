@@ -1,24 +1,19 @@
-import React from 'react'
-
-
+import React from 'react';
+import Iframe from "react-iframe";
 function forum () {
 
     return(
 
         <div>
+<div>sponsered by flatpack forum</div>
 
-hhhhhhhh<iframe 
-                name="myiframe"
-                position="absolute"
-                width="100%"
-                id="myId"
-                className="myClassname"
-                height="100%"
-                styles= "25px">
-               < a href="https://flat-pack-forum.herokuapp.com/signIn"/>
-                </iframe>
-
-
+<Iframe url="https://flat-pack-forum.herokuapp.com/signIn"
+        width="100% vw"
+        height="490px"
+        id="myId"
+        className="myClassname"
+        display="initial"
+        position="relative"/>
 
         </div>
     ); 
