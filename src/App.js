@@ -14,7 +14,7 @@ import Nutrition from './pages/Nutrition'
 import JoinLive from './pages/JoinLive'
 import Premium from './pages/Premium';
 import Forum from './pages/Forum';
-
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -42,6 +42,7 @@ function App() {
       <Route path='/joinLive' component={JoinLive}/>
       <Route path='/premium' component={Premium}/>
       <Route path='/forum' component={Forum}/>
+      <Route path='/contact' component={Contact}/>
       <br /><br /><br />
       <div></div>
       </Router>
