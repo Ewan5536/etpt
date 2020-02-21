@@ -50,7 +50,6 @@ function Strength () {
                 </div>
                 </div>
             </div>
-            <div className="topic">
                 <div className="item">
                     <img src={DoorRow} alt='single arm door row' />
                         <div className="overlay">
@@ -64,6 +63,7 @@ function Strength () {
                         </div>
                 </div>
             
+                <div className="topic">
                 <div className="item">
                     <img src={BiePress} alt='towel biecep curl' />
                     <div className="overlay">
