@@ -2,19 +2,22 @@ import React from 'react';
 import NavBar from './components/navbar/NavBar';
 import Home from './pages/Home';
 import './App.css';
-import {HashRouter as Router,Route} from "react-router-dom"  
-import Endurance from './pages/Endurance'
-import Login from './pages/Login'
-import Flex from './pages/Flexability'
-import Strength from './pages/Strength'
-import Workout10 from './pages/10minWo'
-import Workout20 from './pages/20minWo'
-import Workout40 from './pages/40minWo'
-import Nutrition from './pages/Nutrition'
-import JoinLive from './pages/JoinLive'
+import {HashRouter as Router,Route} from "react-router-dom";
+import Endurance from './pages/Endurance';
+import Login from './pages/Login';
+import Flex from './pages/Flexability';
+import Strength from './pages/Strength';
+import Workout10 from './pages/10minWo';
+import Workout20 from './pages/20minWo';
+import Workout40 from './pages/40minWo';
+import Nutrition from './pages/Nutrition';
+import JoinLive from './pages/JoinLive';
 import Premium from './pages/Premium';
 import Forum from './pages/Forum';
 import Contact from './pages/Contact';
+import CoolDwn from './pages/CoolDwn';
+import WarmUp from './pages/WarmUp';
+import Motiv8 from './pages/Motivate';
 
 
 function App() {
@@ -26,8 +29,8 @@ function App() {
       
 
       {/* <img src={logo} className="App-header" alt="logo" /> */}
-      <p>
-        welcome to Ewan Thomas PT
+      <p className="overlayText">
+        Welcome to Ewan Thomas PT
         </p>
       {/* image tiles */}
       <Route exact path='/' component={Login}/>
@@ -43,6 +46,9 @@ function App() {
       <Route path='/premium' component={Premium}/>
       <Route path='/forum' component={Forum}/>
       <Route path='/contact' component={Contact}/>
+      <Route path='/warmUp' component={WarmUp}/>
+      <Route path='/coolDwn' component={CoolDwn}/>
+      <Route path='/motivate' component={Motiv8}/>
       <br /><br /><br />
       <div></div>
       </Router>

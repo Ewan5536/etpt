@@ -8,7 +8,7 @@ import Hipthrust from '../images/SupineBridge.gif';
 import wlklegstretch from '../images/walkLegStr.gif';
 import widepress from '../images/widePushup.gif';
 
-import { Link } from 'react-router-dom';
+import "../App.css";
 
 
 function Endurance() {

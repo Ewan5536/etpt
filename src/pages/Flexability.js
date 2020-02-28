@@ -6,11 +6,12 @@ import wallReach from '../images/ScapularWallSlides.gif';
 import kneelRota from '../images/thoracicRotation.gif';
 import pecStretch from '../images/PecStretch.gif';
 
+import "../App.css";
 
 
 
 
-function Flexability() {
+function Flex() {
 
     return (<div>
 
@@ -105,4 +106,4 @@ function Flexability() {
     )
 }
 
-export default Flexability;
+export default Flex;

@@ -1,6 +1,7 @@
 import React from "react";
 import endurance from '../images/endurCard.gif';
 import { Link } from 'react-router-dom';
+import "../App.css"
 
 
 function WarmUp() {

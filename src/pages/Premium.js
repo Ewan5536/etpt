@@ -1,4 +1,6 @@
 import React from "react";
+import "../App.css";
+
 import {Link} from "react-router-dom"
 
 
@@ -6,7 +8,7 @@ function Premium() {
   return (<>
   <div className="">
 
-    <div className="">dhdhdhdhd
+    <div className="">ewacser
     <div className="item">
         <form  name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <input type="hidden" name="cmd" value="_xclick"/>

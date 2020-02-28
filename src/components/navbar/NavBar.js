@@ -47,10 +47,10 @@ const Example = (props) => {
               <Link to="./nutrition" className='navbar-link'>Nutrition</Link>
             </NavItem>
             <NavItem>
-              <Link to="./warn_up" className='navbar-link'>Warm-up</Link>
+              <Link to="./warmUp" className='navbar-link'>Warm-up</Link>
             </NavItem>
             <NavItem>
-              <Link to="./cool_down" className='navbar-link'>Cooldown</Link>
+              <Link to="./coolDwn" className='navbar-link'>Cooldown</Link>
             </NavItem>
             <NavItem>
               <Link to="./forum" className='navbar-link'>Forum</Link>
