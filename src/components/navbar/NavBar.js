@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { useState} from 'react';
 import logo from '../../images/logo1.png';
 import {
   Collapse,
@@ -7,11 +7,6 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
   NavbarText
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
@@ -47,10 +42,10 @@ const Example = (props) => {
               <Link to="./nutrition" className='navbar-link'>Nutrition</Link>
             </NavItem>
             <NavItem>
-              <Link to="./warmUp" className='navbar-link'>Warm-up</Link>
+              <Link to="./home" className='navbar-link'>Exersice</Link>
             </NavItem>
             <NavItem>
-              <Link to="./coolDwn" className='navbar-link'>Cooldown</Link>
+              <Link to="./coolDwn" className='navbar-link'>Warm-up & Cooldown</Link>
             </NavItem>
             <NavItem>
               <Link to="./forum" className='navbar-link'>Forum</Link>

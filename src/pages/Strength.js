@@ -5,7 +5,6 @@ import DoorRow from '../images/armRow.gif';
 import xpress from '../images/closeHandPressUp.gif';
 import ExtRota from '../images/ExtRota.gif';
 import BiePress from '../images/bieCurls.gif';
-import { Link } from 'react-router-dom';
 import "../App.css";
 
 
