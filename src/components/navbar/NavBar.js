@@ -42,7 +42,7 @@ const Example = (props) => {
               <Link to="./nutrition" className='navbar-link'>Nutrition</Link>
             </NavItem>
             <NavItem>
-              <Link to="./home" className='navbar-link'>Exersice</Link>
+              <Link to="./home" className='navbar-link'>Exercise</Link>
             </NavItem>
             <NavItem>
               <Link to="./coolDwn" className='navbar-link'>Warm-up & Cooldown</Link>
