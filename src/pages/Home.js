@@ -41,11 +41,13 @@ function Home () {
         </div>
         <div className="item">
           <img src={endurance} alt='20min routine' />
-          <div className="overlay">20min Training</div>
+          <Link to='/20minWo'>
+          <button className="overlay">20min Training</button></Link>
         </div>
         <div className="item">
           <img src={endurance} alt='40min routine' />
-          <div className="overlay">40min Training</div>
+          <Link to='/40minWo'>
+          <button className="overlay">40min Training</button></Link>
         </div>
       </div>
 
