@@ -1,10 +1,40 @@
 import React from "react";
 import "../App.css";
 import pike from "../images/PikePress.gif"
+import Timer from "react-compound-timer"
+
 
 function Workout40 () {
     return (
         <>
+         <div>
+        <Timer initialTime={2400000} direction="backward" startImmediately={false}  >
+                {({ start, pause, reset }) => (
+                    <>
+                        <div>
+                            <Timer.Minutes /> minutes 
+                        </div>
+                        <div>
+                            <Timer.Seconds /> seconds 
+                        </div>
+                        {/* use state(explain state in write up) to render timer from imported react libary (compound timer) */}
+
+
+                            <br />
+
+                        <div>
+                            <button className="timer_button" onClick={start}>Resume</button>
+                            <button className="timer_button" onClick={pause}>Pause</button>
+                            <button className="timer_button" onClick={reset}>Reset</button>
+                        </div>
+
+                    </>
+                )}
+
+            </Timer>
+
+        </div>
+            <br />
             <div>
                 <div className="topic">
                     <div className="item"><img src={pike} alt='short sit ups ' />

@@ -29,10 +29,10 @@
     import "./Login.css";
     import { Auth } from "aws-amplify";
     import Disclaimer from "../images/disclaimer.png";
-    import {Link} from "react-router-dom"
+    import {Link} from "react-router-dom";
+    
 
-
-export default function Login(props) {
+export default function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     
@@ -51,7 +51,10 @@ export default function Login(props) {
         }
     }
     
-    return (
+
+   
+    return (<>
+    
         <div className="Login">
          <form onSubmit={handleSubmit}>
             <FormGroup controlId="email" bsSize="large">
@@ -76,7 +79,9 @@ export default function Login(props) {
         </Button>
             <Link to="/Home" className="btn btn-link">Skip Login</Link>
       </form>
+
       <img src= { Disclaimer } alt='Disclaimer' />
     </div>
-  );
+    
+  </>);
 }

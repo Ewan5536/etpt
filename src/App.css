@@ -65,3 +65,9 @@ img {
           font-size: smaller;
           padding-left: 3px;
         }
+
+        .timer_button {
+          padding: 3px;
+          background-color: chartreuse;
+
+        }

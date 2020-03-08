@@ -4,10 +4,40 @@ import shrugs from "../images/shruglateralarm.gif"
 import str_leg from "../images/StraightLegsit-up.gif"
 import jumps from "../images/squatjump.gif"
 import bends from "../images/sideBends.gif"
+import Timer from "react-compound-timer"
+
 
 function Workout20 () {
     return (
         <>
+         <div>
+        <Timer initialTime={1200000} direction="backward" startImmediately={false}  >
+                {({ start, pause, reset }) => (
+                    <>
+                        <div>
+                            <Timer.Minutes /> minutes 
+                        </div>
+                        <div>
+                            <Timer.Seconds /> seconds 
+                        </div>
+                        {/* use state (explain state in write up) to render timer from imported react libary (compound timer) */}
+
+
+                            <br />
+
+                        <div>
+                            <button className="timer_button" onClick={start}>Resume</button>
+                            <button className="timer_button" onClick={pause}>Pause</button>
+                            <button className="timer_button" onClick={reset}>Reset</button>
+                        </div>
+
+                    </>
+                )}
+
+            </Timer>
+
+        </div>
+            <br />
             <div>
                 <div className="topic">
                     <div className="item"><img src={shrugs} alt='short sit ups ' />

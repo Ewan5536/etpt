@@ -22,8 +22,8 @@ export default function Contact() {
             <h3 className='title'>Contact Us</h3>
             <div className='contact-search-input'>
                 <form action="https://formspree.io/ewan5536@gmail.com" method="POST">
-                    <div>
-                        <label for="full-name">Full Name</label>
+                    <div><p/>
+                        <label for="full-name">Full Name</label><br />
                         <input
                             type='text'
                             name='full-name'
@@ -31,9 +31,9 @@ export default function Contact() {
                             className='contact-search-input-box'
                             required
                         />
-                    </div>
+                    </div><p/>
                     <div>
-                        <label for="email">Email Address</label>
+                        <label for="email">Email Address</label><br />
                         <input
                             type='email'
                             name='email'
@@ -41,9 +41,9 @@ export default function Contact() {
                             className='contact-search-input-box'
                             required
                         />
-                    </div>
+                    </div><p/>
                     <div>
-                        <label for="subject">Subject</label>
+                        <label for="subject">Subject</label><br />
                         <input
                             type='text'
                             name='subject'
@@ -51,16 +51,16 @@ export default function Contact() {
                             className='contact-search-input-box'
                             required
                         />
-                    </div>
+                    </div><p/>
                     <div>
-                        <label for="message">Message</label>
+                        <label for="message">Message</label><br />
                         <textarea
                             name='message'
                             placeholder='Your message goes here'
                             rows='10'
                             className='contact-search-input-box contact-search-input-message'
                         />
-                    </div>
+                    </div><p/>
                     <button type="submit" className='contact-search-input-btn btn-default'>Submit</button>
                 </form>
             </div>
