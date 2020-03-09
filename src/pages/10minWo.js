@@ -40,18 +40,24 @@ function Workout10() {
                     <div className="item"><img src={situps} alt='short sit ups ' />
                         <div className="overlay">
                             <div className='overlayText'>
-                                floor.
+                            To begin the sit-up start with feet flat on the ground and knees bent. 
+                            Contract your abdominals and raise your trunk up until it is vertical or nearly vertical to the ground. 
+                            Lower yourself under control and repeat. 
+                            Note that the hands may be placed in front of the body to make the exercise easier or across the chest: 
+                            Will make the exercise more challenging. 
+                            Do not however, use your arms to flex forward and cheat the exercise.
                             </div>
-                            {/*https://www.youtube.com/watch?v=KKPTt8TJWIs&feature=emb_title*/}
                         </div>
                     </div>
                     {/* routing from homepage */}
-                    <div className="item"><img src={bridge} alt='twist sit ups' />
+                    <div className="item"><img src={bridge} alt='spinal bridge' />
                         <div className="overlay">
                             <div className='overlayText'>
-                                motion.
+                            Lie on your back with knees bent and arms by your sides. 
+                            Tighten your abs and drive your hips up by contracting your glutes. 
+                            Extend until there is a straight line between your knees, hips and shoulders. 
+                            Lower, and repeat
                             </div>
-                            {/* https://www.youtube.com/watch?v=SKPab2YC8BE&feature=emb_title */}
                         </div>
                     </div>
                 </div>

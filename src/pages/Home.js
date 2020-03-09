@@ -1,5 +1,7 @@
 import React from "react";
-import endurance from '../images/leghops.gif';
+import work10 from '../images/work10.png';
+import work20 from '../images/work20.png';
+import work40 from '../images/work40.png';
 import endurCrd from '../images/endurCard.gif';
 import strength from '../images/strenCrd.png';
 import flexability from '../images/flexCrd.png';
@@ -35,17 +37,17 @@ function Home () {
       </div>
       <div className="topic">
         <div className="item">
-          <img src={endurance} alt='10min routine' />
+          <img src={work10} alt='10min routine' />
           <Link to='/10minWo'>
           <button className="overlay">10min Training</button></Link>
         </div>
         <div className="item">
-          <img src={endurance} alt='20min routine' />
+          <img src={work20} alt='20min routine' />
           <Link to='/20minWo'>
           <button className="overlay">20min Training</button></Link>
         </div>
         <div className="item">
-          <img src={endurance} alt='40min routine' />
+          <img src={work40} alt='40min routine' />
           <Link to='/40minWo'>
           <button className="overlay">40min Training</button></Link>
         </div>
