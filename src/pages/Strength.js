@@ -3,7 +3,7 @@ import headPress from '../images/Hand-StandPushUp.gif';
 import incline from '../images/DeclinedPushup.gif';
 import DoorRow from '../images/armRow.gif';
 import xpress from '../images/closeHandPressUp.gif';
-import ExtRota from '../images/ExtRota.gif';
+import CalfStrh from '../images/CalfWallStretch.gif';
 import BiePress from '../images/bieCurls.gif';
 import "../App.css";
 
@@ -83,15 +83,15 @@ function Strength () {
                 </div>
 
                 <div className="item">
-                    <img src={ExtRota} alt='external rotations' />
+                    <img src={CalfStrh} alt='calf stretch against wall' />
                         <div className="overlay">
-                        • SET-UP: Find an object that weighs several pounds or more that you can grasp with one hand. 
-                            For example, a book or a 2l bottle. Lying on your side, straighten your upper arm so that it is parallel to and resting on your upper body.
-                            Flex the elbow to 90 degrees so that the forearm is perpenidcular to your body.
-                        • LIFT: Keeping your elbow fixed on your side, rotate your forearm from your front so that it is in line with your side. Return the weight to the starting position.
-                        • EMPHASIS: Do not use momentum and keep motion in the rest of the body to a minimum.
-                        • REPETITIONS: Perform all prescribed reps on one side, then on the other. 
-                            This counts as one set.
+                        MOVEMENT: Stand facing a wall or other sturdy support and place your arms against it for stabilization. 
+                        Bring the off leg forward in line with your chest, 
+                        and gently step the leg to be stretched backward keeping the heel flat to the ground. 
+                        Lean into the wall or move your back foot farther back to increase the stretch.
+                        REPETITIONS: Hold for the full prescribed time on one side, 
+                        then switch sides and repeat. 
+                        This counts as one set
                         </div>
                 </div>
         </div>
