@@ -48,22 +48,21 @@ function Strength () {
             <div className="item">
                 <img src={DoorRow} alt='single arm door row' />
                     <div className="overlay">
-                    •	SET-UP: Begin in front of a sturdy door frame.
-                        Establish a shoulder width or slightly wider stance and grasp the doorway with one arm so that the wall is perpendicular to your arm.<br />
-                        •	 LIFT: Now slowly sit back using your arm to maintain your upright position and to keep you from falling down.
+                    •SET-UP: Begin in front of a sturdy door frame.
+                        Establish a shoulder width or slightly wider stance and grasp the doorway with one arm so that the wall is perpendicular to your arm.
+                        • LIFT: Now slowly sit back using your arm to maintain your upright position and to keep you from falling down.
                         Once you have a suitable resistance in your arm, simply pull yourself into the doorframe.
-                        Go slowly and do not use momentum.<br />
-                        •	 REPETITIONS: Perform all prescribed reps on one side, then on the other.
+                        Go slowly and do not use momentum.
+                        •REPETITIONS: Perform all prescribed reps on one side, then on the other.
                         This counts as one set.
                     </div>
             </div>
             <div className="item">
                 <img src={xpress} alt='close hand press-ups' />
                     <div className="overlay">
-                      •	SET-UP: Set up with your hands touching each other and your upper arms to the torso. With the toes together and hips up, establish proper upper body posture with a neutral back.
-                <br />• LIFT: Press the chest off the floor until the arms are straight, then return to the starting position. Cue the descent by attempting to 'pull' yourself down to the floor with your shoulder blades.
-                <br />• EMPHASIS: Don't allow the hips or the lower back to sag. Keep the elbows inside - don't let them flare out to the sides. Use a complete range of motion, bringing the chest to the floor. Don't push the head forward to the floor.
-
+                    •SET-UP: Set up with your hands touching each other and your upper arms to the torso. With the toes together and hips up, establish proper upper body posture with a neutral back.
+                    •LIFT: Press the chest off the floor until the arms are straight, then return to the starting position. Cue the descent by attempting to 'pull' yourself down to the floor with your shoulder blades.
+                    •EMPHASIS: Don't allow the hips or the lower back to sag. Keep the elbows inside - don't let them flare out to the sides. Use a complete range of motion, bringing the chest to the floor. Don't push the head forward to the floor.
                     </div>
             </div>
         </div>
