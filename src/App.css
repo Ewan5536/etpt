@@ -22,6 +22,9 @@ img {
 }
 /* display items with equal column width */
 
+.audio {
+  margin-right: 48px;
+}
 /* 
 .overlay {
   display: none;
