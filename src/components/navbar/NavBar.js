@@ -54,7 +54,7 @@ const Example = (props) => {
             <audio className='audio' id="audio" src="http://streaming.tdiradio.com:8000/house.mp3"
               preload="auto" controls muted loop autoplay>
             </audio>
-          <NavbarText><a href="mailto:info@et-pt.co.uk" target="_blank">email: info@et-pt.co.uk</a></NavbarText>
+          <NavbarText><a href="mailto:ewanthomas.pt@gmail.com" target="_blank">email: et-pt.co.uk</a></NavbarText>
         </Collapse>
       </Navbar>
     </div>
