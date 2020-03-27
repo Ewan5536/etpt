@@ -51,7 +51,7 @@ function Workout40 () {
                             </div>
                         </div>
                     </div>
-                        {/* routing from homepage */}
+                        {/* routing from images */}
                     <div className="item"><img src={sidebri} alt='side bridge' />
                         <div className="overlay">
                             <div className='overlayText'>
@@ -76,7 +76,7 @@ function Workout40 () {
                             </div>
                         </div>
                 </div>
-                        {/* routing from homepage */}
+                        {/* routing from images */}
                     <div className="item"><img src={mntclimb} alt='alt. squat thrusts' />
                         <div className="overlay">
                             <div className='overlayText'>
@@ -103,7 +103,7 @@ function Workout40 () {
                             </div>
                         </div>
                 </div>
-                        {/* routing from homepage */}
+                        {/* routing from images */}
                     <div className="item"><img src={sidetwists} alt='side twists' />
                         <div className="overlay">
                             <div className='overlayText'>
@@ -118,12 +118,6 @@ function Workout40 () {
                     </div>
                 </div>
             </div>
-        
-
-
-
-
-
         </>
     )
 }

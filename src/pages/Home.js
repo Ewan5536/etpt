@@ -23,7 +23,7 @@ function Home () {
 
         </div>
 
-        {/* gif immage for homepage routing */}
+        {/* gif image for homepage routing */}
         <div className="item">
           <img src={strength} alt='strength' />
           <Link to='/strength'>

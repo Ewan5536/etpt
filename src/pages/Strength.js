@@ -12,7 +12,7 @@ function Strength () {
 
     return (
         
-<div>
+    <div>
         <div className="topic">
             <div className="item">
                 <img src={headPress} alt='over-head press' />
@@ -24,10 +24,10 @@ function Strength () {
                     •	 MOVEMENT: Lower yourself as far as you can under complete control, then reverse the movement - using the box for stability at all times.<br />
                     •	 EMPHASIS: The key to the handstand push up is control - do not exceed a range of motion you can control.
                     </div>
-                    {/*https://www.youtube.com/watch?v=afxMtSczfrU*/}
+                    {/*exercise text*/}
                 </div>
             </div>
-            {/* routing from homepage */}
+            {/* routing from images */}
             <div className="item">
                 <img src={incline} alt='incline press' />
                 <div className="overlay">
@@ -40,7 +40,7 @@ function Strength () {
                     •	EMPHASIS: Don't allow the hips or the lower back to sag. Use a complete range of motion, bringing the chest to the floor. 
                     Don't push the head forward to the floor.
                 </div>
-                {/* https://www.youtube.com/watch?v=SKPab2YC8BE&feature=emb_title */}
+                {/* exercise text */}
             </div>
             </div>
         </div>
@@ -95,7 +95,6 @@ function Strength () {
                         </div>
                 </div>
         </div>
-
     </div>
     )
 }

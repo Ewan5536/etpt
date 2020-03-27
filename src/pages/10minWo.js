@@ -49,7 +49,7 @@ function Workout10() {
                             </div>
                         </div>
                     </div>
-                    {/* routing from homepage */}
+                    {/* routing from images */}
                     <div className="item"><img src={bridge} alt='spinal bridge' />
                         <div className="overlay">
                             <div className='overlayText'>
