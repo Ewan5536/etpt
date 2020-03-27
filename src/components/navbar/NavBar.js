@@ -51,7 +51,7 @@ const Example = (props) => {
               <Link to="./forum" className='navbar-link'>Forum</Link>
             </NavItem>
           </Nav>
-            <audio className='audio' id="audio" src="http://streaming.tdiradio.com:8000/house.mp3"
+            <audio className='audio' id="audio" src="audio/audio_sample.mp3"
               preload="auto" controls muted loop autoplay>
             </audio>
           <NavbarText><a href="mailto:ewanthomas.pt@gmail.com" target="_blank">email: et-pt.co.uk</a></NavbarText>

@@ -15,8 +15,8 @@ function Premium() {
         <form  name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <input type="hidden" name="cmd" value="_xclick"/>
           <input type="hidden" name="business"
-            value="info@et-pt.co.uk"/>
-          <input type="hidden" name="item_name" value="subcription $19"/>
+            value="ewan5536@hotmail.com"/>
+          <input type="hidden" name="item_name" value="donation $19"/>
           <input type="hidden" name="amount" value="19.00"/>
           <input type="hidden" name="return" value="http:/et-pt.co.uk"/> 
           <input type="image" src={Tierlow} alt="logo et-pt"/>
@@ -30,8 +30,8 @@ function Premium() {
         <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <input type="hidden" name="cmd" value="_xclick"/>
           <input type="hidden" name="business"
-            value="info@et-pt.co.uk"/>
-          <input type="hidden" name="item_name" value="subcription $60"/>
+            value="ewan5536@hotmail.com"/>
+          <input type="hidden" name="item_name" value="donation $60"/>
           <input type="hidden" name="amount" value="60.00"/>
           <input type="hidden" name="return" value="http:/et-pt.co.uk"/> 
           <input type="image"  src={Tiermed} alt="logo et-pt" />
@@ -46,8 +46,8 @@ function Premium() {
         <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <input type="hidden" name="cmd" value="_xclick"/>
           <input type="hidden" name="business"
-            value="info@et-pt.co.uk"/>
-          <input type="hidden" name="item_name" value="subcription $80"/>
+            value="ewan5536@hotmail.com"/>
+          <input type="hidden" name="item_name" value="donation $80"/>
           <input type="hidden" name="amount" value="80.00"/>
           <input type="hidden" name="return" value="http:/et-pt.co.uk"/> 
           <input type="image"  src={Tierhig} alt="logo et-pt" />
