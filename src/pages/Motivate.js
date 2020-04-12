@@ -19,7 +19,7 @@ function Motiv8() {
 
                     
   
-    <h1>The Basics: Metabolism</h1>
+    
     <h1>The Basics: Metabolism</h1>
     <p>
     Find out your BMR (basal metabolic rate) or TDEE (total daily energy expenditure). 
