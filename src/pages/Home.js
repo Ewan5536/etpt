@@ -14,9 +14,9 @@ function Home () {
       <div className="topic">
 
         <div className="item">
-
-          <img src={endurCrd} alt='endurance' />
           <Link to='/endurance'>
+           <img src={endurCrd} alt='endurance' />
+          
           <button className="overlay">
             Enderance Training</button>
           </Link>
@@ -25,30 +25,34 @@ function Home () {
 
         {/* gif image for homepage routing */}
         <div className="item">
-          <img src={strength} alt='strength' />
           <Link to='/strength'>
+           <img src={strength} alt='strength' />
+          
           <button className="overlay">Strength Training</button></Link>
         </div>
         <div className="item">
-          <img src={flexability} alt='flexability' />
-          <Link to='/flexability'>
+         <Link to='/flexability'>
+           <img src={flexability} alt='flexability' />
           <button className="overlay">Flexabiltity Training</button></Link>
         </div>
       </div>
       <div className="topic">
         <div className="item">
-          <img src={work10} alt='10min routine' />
           <Link to='/10minWo'>
+            <img src={work10} alt='10min routine' />
+          
           <button className="overlay">10min Training</button></Link>
         </div>
         <div className="item">
-          <img src={work20} alt='20min routine' />
           <Link to='/20minWo'>
+           <img src={work20} alt='20min routine' />
+          
           <button className="overlay">20min Training</button></Link>
         </div>
         <div className="item">
-          <img src={work40} alt='40min routine' />
           <Link to='/40minWo'>
+           <img src={work40} alt='40min routine' />
+          
           <button className="overlay">40min Training</button></Link>
         </div>
       </div>
