@@ -22,7 +22,7 @@ const Example = (props) => {
     <div>
       <Navbar color="light" light expand="md">
       <NavbarBrand href="/"><img src={logo} alt='logo' style={{width: '50px'}}/></NavbarBrand>
-        <NavbarBrand href="/">Ewan Thomas Pt</NavbarBrand>
+        <NavbarBrand href="/">ET-PT ONLINE FITNESS</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto navbar-link-container" navbar>

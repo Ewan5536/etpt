@@ -30,8 +30,8 @@ function App() {
 
       {/* <img src={logo} className="App-header" alt="logo" /> */}
       <p className="overlayText">
-        Welcome to Ewan Thomas PT
-          <br />Why not comment & donate, to help the site grow and become better.
+        Welcome to Ewan Thomas Personal Training Online
+          <br />Why not comment in the Forum & Donate, to help the site grow and become better.
       </p>
       {/* image tiles */}
       <Route exact path='/' component={Login}/>
