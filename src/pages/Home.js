@@ -16,7 +16,7 @@ function Home () {
           <Link to='/endurance'>
           <img src={endurCrd} alt='endurance' />
           <button className="overlay">
-            Enderance Training</button>
+          Start Enderance Training</button>
           </Link>
         </div>
 
